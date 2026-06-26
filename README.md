@@ -39,3 +39,11 @@ To eliminate operational bloat and prevent cross-contamination of sessions, Logi
 5. The compartment is instantaneously brought back to its baseline, pristine state, completely blanked for the next transaction.
 
 ---
+
+## 5. Forensic Chain of Custody & Contraband Handling
+
+When an autonomous model synthesizes data points into a legally non-compliant output (digital contraband) inside the sandbox, the system ensures ironclad accountability:
+
+* **Real-Time Detection:** The Output Gate halts the asset at the border before it can cross into daylight.
+* **Immutable Pinning:** The system automatically locks the compartment state and maps the breach directly back to the original cryptographic signature verified at the Input Gate. 
+* **No Automated Bypasses:** Automated scripts are structurally barred from resetting safety nodes or clearing compliance flags. A human operator must manually authenticate their security token to reset the node, writing an immutable record to the live audit ledger. The machine processes the data, but the human's signature defines the liability.
