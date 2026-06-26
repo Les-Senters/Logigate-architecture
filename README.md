@@ -27,3 +27,15 @@ The system operates on a definitive rule: **The machine processes the data in th
 * **The Courier Agent (The Transport Daemon):** A stripped-down, stateless message-broker network that moves encrypted data packets across network boundaries without maintaining context.
 
 ---
+
+## 4. The Forced Reset Trigger (FRT) Mechanics
+
+To eliminate operational bloat and prevent cross-contamination of sessions, LogiGate implements a strict hardware-mapped **Forced Reset Trigger (FRT)** logic loop:
+
+1. The output gate completes its real-time legal/compliance scan on the processed asset.
+2. The asset is either cleared for delivery or flagged as a violation.
+3. The exact millisecond the asset transitions past the gate interface, a mechanical trip switch executes.
+4. The system triggers an immediate, unbypasable purge (`shred` / zero-out) of all internal runtime memories, temporary file systems, token context strings, and calculation baggage inside the Sandbox.
+5. The compartment is instantaneously brought back to its baseline, pristine state, completely blanked for the next transaction.
+
+---
