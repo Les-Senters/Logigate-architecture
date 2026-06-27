@@ -47,3 +47,18 @@ When an autonomous model synthesizes data points into a legally non-compliant ou
 * **Real-Time Detection:** The Output Gate halts the asset at the border before it can cross into daylight.
 * **Immutable Pinning:** The system automatically locks the compartment state and maps the breach directly back to the original cryptographic signature verified at the Input Gate. 
 * **No Automated Bypasses:** Automated scripts are structurally barred from resetting safety nodes or clearing compliance flags. A human operator must manually authenticate their security token to reset the node, writing an immutable record to the live audit ledger. The machine processes the data, but the human's signature defines the liability.
+
+
+## Quick Start
+
+To verify the memory isolation boundaries and run the deterministic gating pipeline locally, ensure you have Rust installed and execute:
+
+```bash
+# Clone the repository
+git clone [https://github.com/Les-Senters/Logigate-architecture.git](https://github.com/Les-Senters/Logigate-architecture.git)
+
+# Move into the project directory
+cd Logigate-architecture
+
+# Run the test suite and verify compliance provers
+cargo test
