@@ -1,0 +1,11 @@
+[package]
+name = "logigate"
+version = "0.1.0"
+edition = "2021"
+authors = ["Les-Senters"]
+description = "A deterministic, memory-safe compliance and liability gating pipeline architecture written in Rust."
+license = "Apache-2.0"
+repository = "https://github.com/Les-Senters/Logigate-architecture"
+readme = "README.md"
+keywords = ["compliance", "security", "gating", "zero-trust", "middleware"]
+categories = ["development-tools", "embedded"]
